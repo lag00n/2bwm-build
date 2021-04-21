@@ -9,6 +9,7 @@ Cool Features:
 - SHCMD implementation to ease the process on adding bingings that spawn stuff with shell
 - Support for _NET_DESKTOP_NAMES
 - Autostart patch ( not applied, but can be found on "patches" folder )
+- Compiling optimizations with clang and O3
 
 Dependencies:
 =============
