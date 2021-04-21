@@ -8,6 +8,7 @@ Cool Features:
 
 - SHCMD implementation to ease the process on adding bingings that spawn stuff with shell
 - Support for _NET_DESKTOP_NAMES
+- Autostart patch ( not applied, but can be found on "patches" folder )
 
 Dependencies:
 =============
@@ -21,7 +22,7 @@ Dependencies:
 Installation:
 =============
 
-```
+```sh
 $ git clone https://github/lag00n/2bwm-build
 $ cd 2bwm-build
 > Opcional: Modify config.h and Makefile to fit your needs
