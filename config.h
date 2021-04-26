@@ -105,6 +105,7 @@ static key keys[] = {
     {  0,                 XK_Print,      start,             SHCMD("maim -u | xclip -selection clipboard -t image/png && notify-send -i /home/murilo/.local/share/icons/saved.png 'Printed successfully' 'Screenshot taken.'") },
     {  MOD|SHIFT,         XK_z,          start,             SHCMD("redshift -O 4000") },
     {  MOD|CONTROL,       XK_z,          start,             SHCMD("redshift -x") },
+    {  MOD|SHIFT,         XK_r,          start,             SHCMD("wmctrl -r :ACTIVE: -e 0,5,35,1910,1039") },
     // Focus to next/previous window
     {  MOD ,              XK_Tab,        focusnext,         {.i=TWOBWM_FOCUS_NEXT}},
     {  MOD |SHIFT,        XK_Tab,        focusnext,         {.i=TWOBWM_FOCUS_PREVIOUS}},
