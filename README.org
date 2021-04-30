@@ -32,5 +32,4 @@ $ make install
 ** Screenshot:
 #+CAPTION: A simple scrot
 #+NAME: scrot.png
-#+ATTR_ORG: width: 50% height: 50% 
 [[./scrots/scrot.png]]
