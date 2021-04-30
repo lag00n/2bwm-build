@@ -1,0 +1,36 @@
+#+TITLE: My 2bwm Build
+#+AUTHOR: lxg00n
+#+DATE: 2021-04-30
+#+LANGUAGE: en
+#+OPTIONS: toc:nil
+#+STARTUP: showall
+
+That's my 2bwm build, with some small improvements.
+** Cool Features:
++ SHCMD implementation to ease the process on adding bingings that spawn stuff with shell
++ Support for _NET_DESKTOP_NAMES
++ Autostart patch ( not applied, but can be found on "patches" folder )
++ Compiling optimizations with clang and O3
+
+** Dependencies:
++ xcb-randr
++ xcb-keysyms
++ xcb-icccm
++ xcb-ewmh
++ xcb-xrm
+
+** Installation:
+
+#+BEGIN_SRC sh
+$ git clone https://github/lag00n/2bwm-build
+$ cd 2bwm-build
+# Opcional: Modify config.h and Makefile to fit your needs
+$ make
+$ make install
+#+END_SRC
+
+** Screenshot:
+#+CAPTION: A simple scrot
+#+NAME: scrot.png
+#+ATTR_ORG: width: 50% height: 50% 
+[[./scrots/scrot.png]]
