@@ -41,7 +41,7 @@ static const uint8_t borders[] = {3,5,5,4};
 static const char *ignore_names[] = {"polybar", "xclock"};
 ///--Menus and Programs---///
 static const char *menucmd[]   = { "/home/murilo/.local/bin/dmenu_run", NULL };
-static const char *termcmd[]   = { "urxvtc", NULL };
+static const char *termcmd[]   = { "tabbed", "urxvtc", "-embed", NULL };
 //spawn stuff in shell
 #define SHCMD(cmd) { .com = (const char*[]){ "/bin/sh", "-c", cmd, NULL } }
 ///-- WORKSPACE NAMES ---//
